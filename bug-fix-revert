@@ -1,9 +1,12 @@
 $ curl -s https://api.github.com/repos/ahmadhelmiafandi/mcino-Introduction-to-Git-and-GitHub/pulls?state=all | grep -E "title|state|html_url|base|label"
-      "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/1",
+      "html_url": "https://github.com/ahmadhelmiafandi/mcino-Introduction-to-Git-and-GitHub/pull/1",
       "state": "open",
       "title": "Fix typo in simple-interest.sh",
       "label": "ahmadhelmiafandi:main",
-      "repo": {
-        "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
-        "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+      "base": {
+        "label": "ibm-developer-skills-network:main",
+        "repo": {
+          "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+          "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+        }
       }
