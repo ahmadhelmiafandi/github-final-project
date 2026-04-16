@@ -1,3 +1,4 @@
 $ git branch -v
-  bug-fix-typo c8a1403 Fix typo in README
-* main         c8a1403 [ahead 3] Fix typo in README
+  bug-fix-revert c8a1403 Fix typo in README
+  bug-fix-typo   c8a1403 Fix typo in README
+* main           c8a1403 [ahead 3] Fix typo in README
